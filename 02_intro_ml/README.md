@@ -22,7 +22,8 @@
 - **Labels/Targets**: What we want to predict (y)
 - **Training**: Teaching the model with data
 - **Testing**: Checking if the model works on new data
-- **Overfitting**: Model memorizes training data but fails on new data
+- **Overfitting**: Model memorizes training data but fails on new data (too complex, high variance)
+- **Underfitting**: Model is too simple and fails to capture patterns in both training and test data (too simple, high bias)
 
 ## Resources
 - [Scikit-learn Tutorial](https://scikit-learn.org/stable/tutorial/index.html)
