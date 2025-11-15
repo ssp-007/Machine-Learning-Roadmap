@@ -104,3 +104,5 @@ print("1. Install NumPy and Pandas: pip install numpy pandas")
 print("2. Open 02_data_exploration.ipynb in Jupyter")
 print("3. Start learning about data manipulation!")
 
+odds = [x for x in range(1, 21) if x % 2 != 0]
+print(f"Odd numbers: {odds}")
